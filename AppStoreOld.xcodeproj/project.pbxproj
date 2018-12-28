@@ -14,6 +14,12 @@
 		51065F5321CE397900E57DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51065F5121CE397900E57DB6 /* LaunchScreen.storyboard */; };
 		51065F5E21CE397900E57DB6 /* AppStoreOldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F5D21CE397900E57DB6 /* AppStoreOldTests.swift */; };
 		51065F6921CE397900E57DB6 /* AppStoreOldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F6821CE397900E57DB6 /* AppStoreOldUITests.swift */; };
+		51065F7721D0549900E57DB6 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F7621D0549900E57DB6 /* CategoryCell.swift */; };
+		51065F7921D089B000E57DB6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F7821D089B000E57DB6 /* Models.swift */; };
+		51065F7B21D1F04A00E57DB6 /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F7A21D1F04A00E57DB6 /* AppDetailController.swift */; };
+		51065F7D21D3555900E57DB6 /* ScreenshotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F7C21D3555900E57DB6 /* ScreenshotsCell.swift */; };
+		51065F7F21D4610600E57DB6 /* AppDetailDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F7E21D4610600E57DB6 /* AppDetailDescriptionCell.swift */; };
+		51065F8121D46B9E00E57DB6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51065F8021D46B9E00E57DB6 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		51065F6421CE397900E57DB6 /* AppStoreOldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreOldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51065F6821CE397900E57DB6 /* AppStoreOldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreOldUITests.swift; sourceTree = "<group>"; };
 		51065F6A21CE397900E57DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51065F7621D0549900E57DB6 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		51065F7821D089B000E57DB6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		51065F7A21D1F04A00E57DB6 /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
+		51065F7C21D3555900E57DB6 /* ScreenshotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsCell.swift; sourceTree = "<group>"; };
+		51065F7E21D4610600E57DB6 /* AppDetailDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailDescriptionCell.swift; sourceTree = "<group>"; };
+		51065F8021D46B9E00E57DB6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				51065F4F21CE397900E57DB6 /* Assets.xcassets */,
 				51065F5121CE397900E57DB6 /* LaunchScreen.storyboard */,
 				51065F5421CE397900E57DB6 /* Info.plist */,
+				51065F7621D0549900E57DB6 /* CategoryCell.swift */,
+				51065F7821D089B000E57DB6 /* Models.swift */,
+				51065F7A21D1F04A00E57DB6 /* AppDetailController.swift */,
+				51065F7C21D3555900E57DB6 /* ScreenshotsCell.swift */,
+				51065F7E21D4610600E57DB6 /* AppDetailDescriptionCell.swift */,
+				51065F8021D46B9E00E57DB6 /* Helper.swift */,
 			);
 			path = AppStoreOld;
 			sourceTree = "<group>";
@@ -258,6 +276,12 @@
 			files = (
 				51065F4B21CE397800E57DB6 /* ViewController.swift in Sources */,
 				51065F4921CE397800E57DB6 /* AppDelegate.swift in Sources */,
+				51065F7721D0549900E57DB6 /* CategoryCell.swift in Sources */,
+				51065F7B21D1F04A00E57DB6 /* AppDetailController.swift in Sources */,
+				51065F7921D089B000E57DB6 /* Models.swift in Sources */,
+				51065F7F21D4610600E57DB6 /* AppDetailDescriptionCell.swift in Sources */,
+				51065F7D21D3555900E57DB6 /* ScreenshotsCell.swift in Sources */,
+				51065F8121D46B9E00E57DB6 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
